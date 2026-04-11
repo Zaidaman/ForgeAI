@@ -1,0 +1,11 @@
+{
+    "id": "00",
+    "difficulty": "easy",
+    "type": "pipeline",
+    "tags": [
+        "log",
+        "write-to-log",
+        "debug"
+    ],
+    "description": "Pipeline minimale con un solo step di log. Utile come template base."
+}
