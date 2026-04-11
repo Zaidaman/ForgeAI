@@ -1,0 +1,7 @@
+{
+  "id": "02",
+  "difficulty": "easy",
+  "type": "pipeline",
+  "tags": ["csv-input", "table-output", "mysql", "import", "commit"],
+  "description": "Import da CSV verso tabella DB con batch commit."
+}

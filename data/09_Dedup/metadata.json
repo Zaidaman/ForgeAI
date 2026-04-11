@@ -1,0 +1,7 @@
+{
+  "id": "09",
+  "difficulty": "medium",
+  "type": "pipeline",
+  "tags": ["table-input", "sort-rows", "unique-rows", "deduplication", "postgresql"],
+  "description": "Deduplicazione record su chiave email con logica di priorita."
+}

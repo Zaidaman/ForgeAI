@@ -1,0 +1,7 @@
+{
+  "id": "03",
+  "difficulty": "easy",
+  "type": "pipeline",
+  "tags": ["row-generator", "write-to-log", "test-data"],
+  "description": "Generazione dati sintetici per test. Utile per validare strutture pipeline."
+}

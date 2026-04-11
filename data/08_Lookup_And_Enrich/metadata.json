@@ -1,0 +1,7 @@
+{
+  "id": "08",
+  "difficulty": "medium",
+  "type": "pipeline",
+  "tags": ["table-input", "database-lookup", "enrichment", "join", "oracle"],
+  "description": "Lookup su tabella di riferimento per arricchire il flusso principale."
+}

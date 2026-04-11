@@ -1,0 +1,7 @@
+{
+  "id": "05",
+  "difficulty": "easy",
+  "type": "pipeline",
+  "tags": ["table-input", "add-constants", "table-output", "enrichment"],
+  "description": "Aggiunta di campo costante a un flusso dati. Pattern di data enrichment base."
+}

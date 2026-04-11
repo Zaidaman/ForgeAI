@@ -1,0 +1,7 @@
+{
+  "id": "12",
+  "difficulty": "medium",
+  "type": "pipeline",
+  "tags": ["table-input", "insert-update", "upsert", "lookup-key", "postgresql"],
+  "description": "Upsert su tabella master da staging. Pattern SCD Type 1."
+}

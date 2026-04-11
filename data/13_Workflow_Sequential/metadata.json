@@ -1,0 +1,7 @@
+{
+  "id": "13",
+  "difficulty": "medium",
+  "type": "workflow",
+  "tags": ["pipeline-action", "sequential", "error-handling", "write-to-log", "etl-orchestration"],
+  "description": "Orchestrazione ETL classica in tre fasi con gestione errori."
+}

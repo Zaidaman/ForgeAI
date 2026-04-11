@@ -1,0 +1,1 @@
+Leggi la tabella movimenti da Oracle finance_db. Per ogni record, cerca il campo id_cliente nella tabella clienti dello stesso DB e aggiungi i campi nome_cliente e categoria. Scrivi il risultato nella tabella movimenti_enriched.

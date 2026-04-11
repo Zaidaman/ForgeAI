@@ -1,0 +1,7 @@
+{
+  "id": "06",
+  "difficulty": "easy",
+  "type": "pipeline",
+  "tags": ["table-input", "select-values", "rename", "table-output", "staging"],
+  "description": "Rinomina campi tra staging e layer pulito. Pattern comune in data warehouse."
+}

@@ -1,0 +1,1 @@
+Leggi la tabella aggiornamenti_prodotti da PostgreSQL staging_db. Per ogni record, se il codice_prodotto esiste gia nella tabella prodotti di master_db aggiorna il record, altrimenti inseriscilo. La chiave di lookup e codice_prodotto.

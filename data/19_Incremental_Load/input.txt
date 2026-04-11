@@ -1,0 +1,1 @@
+Leggi dalla tabella transazioni di Oracle source_db solo i record con data_modifica maggiore dell'ultimo valore salvato nella tabella watermark di PostgreSQL ctrl_db nel campo last_run. Elabora i record e inseriscili nella tabella transazioni_dw di dw_db. Al termine aggiorna last_run in watermark con il timestamp attuale.

@@ -1,0 +1,7 @@
+{
+  "id": "14",
+  "difficulty": "medium",
+  "type": "workflow",
+  "tags": ["file-exists", "pipeline-action", "move-file", "write-to-log", "file-orchestration"],
+  "description": "Pattern file-watcher: controlla, elabora, archivia."
+}

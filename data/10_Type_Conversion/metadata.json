@@ -1,0 +1,7 @@
+{
+  "id": "10",
+  "difficulty": "medium",
+  "type": "pipeline",
+  "tags": ["table-input", "select-values", "type-conversion", "date-format", "number-format"],
+  "description": "Conversione tipi da raw staging a layer tipizzato. Pattern fondamentale ETL."
+}

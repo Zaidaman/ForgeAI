@@ -1,0 +1,7 @@
+{
+  "id": "16",
+  "difficulty": "hard",
+  "type": "workflow",
+  "tags": ["loop", "table-input", "pipeline-executor", "parameters", "job-queue", "orchestration"],
+  "description": "Pattern job-queue: elaborazione iterativa con passaggio parametri e aggiornamento stato."
+}

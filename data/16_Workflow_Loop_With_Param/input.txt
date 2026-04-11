@@ -1,0 +1,1 @@
+Crea un workflow che legge dalla tabella job_queue di PostgreSQL ctrl_db tutti i record con stato DA_ELABORARE. Per ogni record, esegui la pipeline process_item.hpl passando come parametro il campo id_item. Al termine di ogni esecuzione, aggiorna lo stato del record a ELABORATO.

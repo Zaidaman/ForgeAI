@@ -1,0 +1,1 @@
+Leggi la tabella righe_ordine da PostgreSQL sales_db con campi id_ordine, id_prodotto, quantita, prezzo_unitario. Calcola per ogni id_ordine il totale come somma di quantita per prezzo_unitario e il numero di righe. Scrivi il risultato nella tabella ordini_aggregati.

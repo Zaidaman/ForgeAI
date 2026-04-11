@@ -1,0 +1,7 @@
+{
+  "id": "19",
+  "difficulty": "hard",
+  "type": "pipeline",
+  "tags": ["incremental-load", "watermark", "table-input", "table-output", "multi-db", "cdc"],
+  "description": "Caricamento incrementale con pattern watermark. Fondamentale per ETL su grandi volumi."
+}

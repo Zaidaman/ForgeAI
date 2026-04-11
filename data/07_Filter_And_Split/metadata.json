@@ -1,0 +1,7 @@
+{
+  "id": "07",
+  "difficulty": "medium",
+  "type": "pipeline",
+  "tags": ["table-input", "filter-rows", "split", "table-output", "conditional"],
+  "description": "Smistamento record su piu tabelle destinazione in base a condizione su campo."
+}

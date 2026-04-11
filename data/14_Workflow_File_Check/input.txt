@@ -1,0 +1,1 @@
+Crea un workflow che controlla se esiste il file /data/input/ordini.csv. Se esiste, esegui la pipeline import_ordini.hpl e poi sposta il file nella cartella /data/processed/. Se non esiste, scrivi nel log "Nessun file da elaborare" e termina correttamente.

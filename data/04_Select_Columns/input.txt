@@ -1,0 +1,1 @@
+Leggi la tabella ordini dal database Oracle erp_db. Tieni solo le colonne id_ordine, data_ordine e totale. Scrivi il risultato nella tabella ordini_slim dello stesso database.

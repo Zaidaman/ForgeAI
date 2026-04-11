@@ -1,0 +1,1 @@
+Leggi la tabella fatture da Oracle finance_db e la tabella contratti da PostgreSQL crm_db. Fai un join su id_cliente presente in entrambe. Tieni solo le fatture che hanno un contratto attivo con stato_contratto uguale ad ATTIVO. Scrivi il risultato nella tabella fatture_validate su PostgreSQL dw_db.

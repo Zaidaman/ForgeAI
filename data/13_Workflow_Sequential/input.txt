@@ -1,0 +1,1 @@
+Crea un workflow che esegue in sequenza tre pipeline: prima extract.hpl, poi transform.hpl, infine load.hpl. Se una delle pipeline fallisce, il workflow deve fermarsi e scrivere nel log il nome della pipeline fallita.

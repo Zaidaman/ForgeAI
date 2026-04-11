@@ -1,1 +1,1 @@
-Crea una pipeline che stampa nel log il messaggio "Pipeline creata!"
+Crea una pipeline che stampa nel log il messaggio "Pipeline avviata correttamente".

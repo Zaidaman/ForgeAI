@@ -1,0 +1,1 @@
+Leggi la tabella ordini da PostgreSQL sales_db. Separa i record in base al campo stato_pagamento: quelli con valore PAGATO inseriscili nella tabella ordini_pagati, quelli con valore SOSPESO nella tabella ordini_sospesi. Ignora gli altri stati.

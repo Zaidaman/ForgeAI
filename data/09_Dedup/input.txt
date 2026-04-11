@@ -1,0 +1,1 @@
+Leggi la tabella contatti da PostgreSQL crm_db. Rimuovi i duplicati basandoti sul campo email, tenendo il record con id piu alto. Scrivi i record unici nella tabella contatti_dedup.

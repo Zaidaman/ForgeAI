@@ -1,0 +1,7 @@
+{
+  "id": "15",
+  "difficulty": "hard",
+  "type": "pipeline",
+  "tags": ["scd2", "slowly-changing-dimension", "table-input", "database-lookup", "insert-update", "data-warehouse"],
+  "description": "Implementazione SCD Type 2 per storicizzazione dimensione cliente."
+}

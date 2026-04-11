@@ -1,0 +1,1 @@
+Leggi la tabella vendite da PostgreSQL sales_db, aggiungi un campo costante chiamato fonte con valore "legacy_system" e scrivi tutto nella tabella vendite_enriched dello stesso database.

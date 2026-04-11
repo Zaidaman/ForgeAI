@@ -1,0 +1,1 @@
+Leggi la tabella raw_transazioni da MySQL payments_db. Il campo importo e una stringa nel formato 1.234,56: convertilo in numero decimale. Il campo data_transazione e una stringa dd/MM/yyyy: convertila in tipo Date. Scrivi il risultato in transazioni_typed.

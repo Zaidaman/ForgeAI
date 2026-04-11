@@ -1,12 +1,7 @@
 {
-    "id": "01",
-    "difficulty": "easy",
-    "type": "pipeline",
-    "tags": [
-        "table-input",
-        "csv-output",
-        "sqlserver",
-        "export"
-    ],
-    "description": "Export diretto da tabella DB verso CSV. Pattern ETL basilare."
+  "id": "01",
+  "difficulty": "easy",
+  "type": "pipeline",
+  "tags": ["table-input", "csv-output", "postgresql", "export"],
+  "description": "Export diretto da tabella DB verso CSV. Pattern ETL basilare."
 }

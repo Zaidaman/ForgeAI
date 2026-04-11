@@ -1,0 +1,7 @@
+{
+  "id": "18",
+  "difficulty": "hard",
+  "type": "workflow",
+  "tags": ["pipeline-action", "mail", "error-handling", "notification", "monitoring"],
+  "description": "Orchestrazione con notifica email su successo/errore. Pattern di monitoring operativo."
+}

@@ -1,0 +1,7 @@
+{
+  "id": "17",
+  "difficulty": "hard",
+  "type": "pipeline",
+  "tags": ["table-input", "merge-join", "multi-source", "oracle", "postgresql", "cross-db-join"],
+  "description": "Join tra sorgenti eterogenee Oracle e PostgreSQL con filtro sul risultato."
+}

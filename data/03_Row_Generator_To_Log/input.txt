@@ -1,0 +1,1 @@
+Genera 10 righe con i campi: id intero progressivo, nome stringa fissa "test", data_creazione data di oggi. Stampale nel log.

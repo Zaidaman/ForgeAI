@@ -1,0 +1,7 @@
+{
+  "id": "04",
+  "difficulty": "easy",
+  "type": "pipeline",
+  "tags": ["table-input", "select-values", "table-output", "oracle", "column-selection"],
+  "description": "Selezione colonne tra due tabelle dello stesso DB. Pattern di pulizia schema."
+}

@@ -1,0 +1,1 @@
+Crea un workflow che esegue la pipeline daily_load.hpl. Se ha successo, invia una email a team@azienda.it con oggetto "Load giornaliero completato" e nel corpo il numero di righe elaborate. Se fallisce, invia una email con oggetto "ERRORE Load giornaliero" con il dettaglio dell'errore e termina il workflow in stato di errore.
