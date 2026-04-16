@@ -1,1 +1,1 @@
-Crea una pipeline che stampa nel log il messaggio "Pipeline avviata correttamente".
+Crea un Workflow che stampa nel log il messaggio "Pipeline avviata correttamente".
