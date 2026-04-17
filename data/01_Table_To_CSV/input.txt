@@ -1,1 +1,1 @@
-Leggi tutti i record dalla tabella clienti del database SQLServer ForgeAI e scrivili in un file CSV chiamato clienti_export.csv con separatore punto e virgola.
+Leggi tutti i record dalla tabella Clienti del database SQLServer ForgeAI e scrivili in un file CSV chiamato clienti_export.csv con separatore punto e virgola.

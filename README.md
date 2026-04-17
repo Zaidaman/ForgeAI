@@ -40,7 +40,3 @@ La difficoltà è distribuita su tre livelli:
 - **Hard**: pattern avanzati (SCD2, incremental load, job queue, multi-sorgente)
 
 Il dataset contiene solo 20 casistiche, è stato deciso un approccio dove il dataset ha una minore mole di dati ma di migliore qualità.
-
-https://claude.ai/chat/66468a4c-2c28-45ce-9ddd-160330e8f517
-
-- [ ] Creazione XML per il dataset output

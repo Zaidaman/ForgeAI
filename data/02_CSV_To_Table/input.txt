@@ -1,1 +1,1 @@
-Leggi il file prodotti.csv con colonne codice, descrizione, prezzo, scorta e inserisci i dati nella tabella prodotti del database MySQL warehouse_db. Fai commit ogni 500 righe.
+Leggi il file prodotti.csv con colonne codice, descrizione, prezzo, quantita e inserisci i dati nella tabella prodotti del database MySQL ForgeAI.
