@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pipeline>
+  <info>
+    <name>output</name>
+    <name_sync_with_filename>Y</name_sync_with_filename>
+    <description/>
+    <extended_description/>
+    <pipeline_version/>
+    <pipeline_type>Normal</pipeline_type>
+    <parameters>
+    </parameters>
+    <capture_transform_performance>N</capture_transform_performance>
+    <transform_performance_capturing_delay>1000</transform_performance_capturing_delay>
+    <transform_performance_capturing_size_limit>100</transform_performance_capturing_size_limit>
+    <created_user>-</created_user>
+    <created_date>2026/04/23 12:20:10.300</created_date>
+    <modified_user>-</modified_user>
+    <modified_date>2026/04/23 12:20:10.300</modified_date>
+  </info>
+  <notepads>
+  </notepads>
+  <order>
+    <hop>
+      <from>INP ordini</from>
+      <to>ADD fonte</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>ADD fonte</from>
+      <to>OUT ordini_legacy</to>
+      <enabled>Y</enabled>
+    </hop>
+  </order>
+  <transform>
+    <name>INP ordini</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>ForgeAI@localhost</connection>
+    <execute_each_row>N</execute_each_row>
+    <limit>0</limit>
+    <sql>SELECT [id_ordine]
+      ,[cliente]
+      ,[data_ordine]
+      ,[prezzo]
+      ,[quantita]
+      ,[totale]
+      ,[data_consegna]
+  FROM [ForgeAI].[dbo].[ordini]
+</sql>
+    <variables_active>N</variables_active>
+    <attributes/>
+    <GUI>
+      <xloc>144</xloc>
+      <yloc>80</yloc>
+    </GUI>
+  </transform>
+  <transform>
+    <name>ADD fonte</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
+        <length>-1</length>
+        <name>fonte</name>
+        <nullif>legacy_system</nullif>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+        <type>String</type>
+      </field>
+    </fields>
+    <attributes/>
+    <GUI>
+      <xloc>304</xloc>
+      <yloc>80</yloc>
+    </GUI>
+  </transform>
+  <transform>
+    <name>OUT ordini_legacy</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <commit>1000</commit>
+    <connection>ForgeAI@localhost</connection>
+    <fields>
+      <field>
+        <column_name>id_ordine</column_name>
+        <stream_name>id_ordine</stream_name>
+      </field>
+      <field>
+        <column_name>cliente</column_name>
+        <stream_name>cliente</stream_name>
+      </field>
+      <field>
+        <column_name>data_ordine</column_name>
+        <stream_name>data_ordine</stream_name>
+      </field>
+      <field>
+        <column_name>prezzo</column_name>
+        <stream_name>prezzo</stream_name>
+      </field>
+      <field>
+        <column_name>quantita</column_name>
+        <stream_name>quantita</stream_name>
+      </field>
+      <field>
+        <column_name>totale</column_name>
+        <stream_name>totale</stream_name>
+      </field>
+      <field>
+        <column_name>data_consegna</column_name>
+        <stream_name>data_consegna</stream_name>
+      </field>
+      <field>
+        <column_name>fonte</column_name>
+        <stream_name>fonte</stream_name>
+      </field>
+    </fields>
+    <ignore_errors>N</ignore_errors>
+    <only_when_have_rows>N</only_when_have_rows>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <return_field/>
+    <return_keys>N</return_keys>
+    <schema>dbo</schema>
+    <specify_fields>Y</specify_fields>
+    <table>ordini_legacy</table>
+    <tablename_field/>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_in_table>Y</tablename_in_table>
+    <truncate>N</truncate>
+    <use_batch>Y</use_batch>
+    <attributes/>
+    <GUI>
+      <xloc>480</xloc>
+      <yloc>80</yloc>
+    </GUI>
+  </transform>
+  <transform_error_handling>
+  </transform_error_handling>
+  <attributes/>
+</pipeline>

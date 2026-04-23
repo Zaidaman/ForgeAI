@@ -1,1 +1,1 @@
-Leggi il file prodotti.csv con colonne codice, descrizione, prezzo, quantita e inserisci i dati nella tabella prodotti del database MySQL ForgeAI.
+Leggi il file prodotti.csv con colonne codice, descrizione, prezzo, quantita e inserisci i dati nella tabella prodotti del database SQLServer ForgeAI.

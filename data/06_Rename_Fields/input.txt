@@ -1,1 +1,1 @@
-Leggi la tabella raw_anagrafica da MySQL staging_db. Rinomina il campo dt_nasc in data_nascita e cod_fisc in codice_fiscale. Scrivi il risultato nella tabella anagrafica_clean dello stesso database.
+Leggi la tabella raw_anagrafica da SQLServer ForgeAI. Rinomina il campo dt_nasc in data_nascita e cod_fisc in codice_fiscale. Scrivi il risultato nella tabella anagrafica_clean dello stesso database.

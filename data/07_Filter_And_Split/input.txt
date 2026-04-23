@@ -1,1 +1,1 @@
-Leggi la tabella ordini da PostgreSQL sales_db. Separa i record in base al campo stato_pagamento: quelli con valore PAGATO inseriscili nella tabella ordini_pagati, quelli con valore SOSPESO nella tabella ordini_sospesi. Ignora gli altri stati.
+Leggi la tabella ordini da SQLServer ForgeAI, solo i record con processato uguale a 0. Separa i record in base al campo stato_pagamento: quelli con valore PAGATO crea un file XLSX nella cartella temporanea e aggiorna il campo processato a 1, quelli con valore SOSPESO fai un log. Ignora gli altri stati.
