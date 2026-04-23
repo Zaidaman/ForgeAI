@@ -1,1 +1,1 @@
-Leggi la tabella movimenti da Oracle finance_db. Per ogni record, cerca il campo id_cliente nella tabella clienti dello stesso DB e aggiungi i campi nome_cliente e categoria. Scrivi il risultato nella tabella movimenti_enriched.
+Leggi la tabella movimenti da SQLServer ForgeAI. Per ogni record fai una join con la tabella clienti e estrai i campi nome e matricola. Rinomina il campo nome in nome_cliente e matricola in matricola_cliente, scrivi il risultato nella tabella movimenti_enriched.
